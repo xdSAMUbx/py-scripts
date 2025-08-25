@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from shapely import Polygon
 
-poly = Polygon([(0,0),(0,1),(1,1),(0,1)])
+poly = Polygon([(0,0),(0,1),(1,1),(1,0)])
 fig, ax = plt.subplots(figsize=(6,6))
 x,y = poly.exterior.xy
 
