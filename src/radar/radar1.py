@@ -53,6 +53,7 @@ def menu():
     print("3) Resolución en Rango\n4) Resolución en Azimut")
     op = int(input("Seleccione una opción: "))
     if op == 1:
+        print("-----------------------------------------------")
         pt = float(input("Potencia transmitida: "))
         gt = float(input("Ganancia de la antena: "))
         ar = float(input("Area efectiva: "))
@@ -64,13 +65,14 @@ def menu():
         print("La respuesta es: ", res)
         print("En decibeles : ", math.log10(res))
     elif op == 2:
+        print("-----------------------------------------------")
         pt = float(input("Potencia transmitida: "))
         gt = float(input("Ganancia de la antena: "))
         ar = float(input("Area efectiva: "))
         sg = float(input("Coeficiente de decaimiento: "))
         f = float(input("Factor de propagación (si varia, si no continue): "))
-        rt = float(input("Distancia: "))
-        res = rPassivEq(pt,gt,ar,sg,f,rt,rr)
+        r = float(input("Distancia: "))
+        res = rActivEq(pt,gt,ar,sg,r,f)
         print("La respuesta es: ", res)
         print("En decibeles : ", math.log10(res))
  
