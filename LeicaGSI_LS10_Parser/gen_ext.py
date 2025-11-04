@@ -1,5 +1,6 @@
-from typing import Union, Optional, List, Dict, Iterable, Tuple
+from typing import Union, Optional, List, Dict, Iterator, Tuple
 from pathlib import Path
+from datetime import date
 import pandas as pd
 import re
 
@@ -14,6 +15,9 @@ BLOCK_RE = re.compile(r'^\s*(?P<grupo>[^+\s]+)\+[^?]*\?.*?(?P<codigo>[1-4]|10)\b
 
 # VERT: Patron que estandariza los vertices XXXX-XXXX-09
 VERT_RE = re.compile(r'^([A-Z0-9]+)([A-Z]{2,4})(\d{1,2})$')
+
+# FECHA6: Extrae fechas
+FECHA6_RE = re.compile(r'(\d{6})')
 
 # INI: siguiente línea del bloque. Se exige 83..[068]<valor> y se toma como ini si <valor> == 0
 INI_RE = re.compile(r"""
@@ -30,7 +34,7 @@ FIN_RE_BF = re.compile(r"""
 """, re.X)
 
 # Función que estandariza las nomenclaturas
-def vert_std(codigo:str):
+def vert_std(codigo:str) -> str:
     code_mayusc = codigo.replace("-", "").replace(" ", "").upper()
     m = VERT_RE.match(code_mayusc)
     if m:
@@ -39,16 +43,72 @@ def vert_std(codigo:str):
     
     return codigo
 
-# 1) Mantenga parser_ini sin listas: retorna 1 tupla o None
-def parser_ini(linea: str) -> Optional[Tuple[str, str]]:
+# Función que ordena el archivo orden
+def clasi_orden(forden:Path):
+    ida: List[Dict[str, str]] = []
+    reg: List[Dict[str, str]] = []
+
+    with open(forden, "r", encoding="utf-8") as f:
+        # suponemos primera línea encabezado
+        for i, linea in enumerate(f.readlines()[1:]):
+            linea = linea.strip()
+            if not linea or ";" not in linea:
+                continue
+            a, b = linea.split(";")
+            a = vert_std(a)
+            b = vert_std(b)
+            if i % 2 == 0:
+                ida.append({"ini" : a, "fin": b})
+            else:
+                reg.append({"ini" : a, "fin": b})
+
+    return [ida,reg]
+
+def ext_fecha(fname:str):
+    m = FECHA6_RE.search(fname)
+    if not m:
+        return None
+    
+    y, mth, d = int(m.group(1)[:2]), int(m.group(1)[2:4]), int(m.group(1)[4:6])
+
+    # regla para siglo: 00–49 → 2000s, 50–99 → 1900s
+    year = 2000 + y if y < 50 else 1900 + y
+
+    try:
+        return date(year, mth, d).isoformat()
+    except ValueError:
+        return None
+
+# 1) Mantener parser_ini SIN listas: retorna 1 tupla o None
+def parser_ini(linea: str) -> Optional[Tuple[str, float]]:
     s = linea.strip()
     m = INI_RE.search(s)
     if not m:
         return None
-    # Comparación textual (sin int): +00000000 => flag '0'
-    flag = '0' if m.group(4).lstrip('+-0') == "" else '1'
+
     ini = vert_std(m.group(1).lstrip('0'))
-    return (ini, flag)
+
+    # flag = valor inicial 83..26 (escalado). 0.0 si no existe o es cero.
+    flag_init = 0.0
+    try:
+        # Solo si el regex del INI trae estos grupos
+        gidx = m.re.groupindex
+        if ('val_83' in gidx) and ('p6_83' in gidx):
+            g6 = m.group('p6_83')
+            base = 1e4 if g6 == '6' else 1e5 if g6 == '8' else None
+            if base is not None:
+                raw = m.group('val_83')
+                if raw is not None:
+                    v83 = float(raw) / base
+                    # Trata casi-cero como cero para estabilidad numérica
+                    if abs(v83) > 1e-12:
+                        flag_init = v83
+    except Exception:
+        # Si algo no cuadra en la línea, dejamos 0.0 (comportamiento seguro)
+        pass
+
+    return (ini, flag_init)
+
 
 # 2) parser_med: sin cambios lógicos; retorna dict o None
 def parser_med(m_fin):
@@ -59,14 +119,15 @@ def parser_med(m_fin):
             return None
         dif_dist   = float(m_fin.group('val_573')) / base
         total_dist = float(m_fin.group('val_574')) / base
-        dif_height = float(m_fin.group('val_83'))   / base
+        dif_height = float(m_fin.group('val_83'))   / base  # <- valor "final" 83
     else:
         raise SyntaxError("No se realizó la corrección por curvatura")
 
-    return {"dif_dist": dif_dist, "total_dist": total_dist, "dif_height": dif_height}
+    return {"fin": None, "dif_dist": dif_dist, "total_dist": total_dist, "dif_height": dif_height}
 
-# 3) parser_fin: retorna SIEMPRE dict o None (sin listas)
-def parser_fin(prev_line: Optional[str], curr_line: str, *, last:bool = True) -> Optional[Dict[str, float | str]]:
+
+# 3) parser_fin: sin cambios de contrato
+def parser_fin(prev_line: Optional[str], curr_line: str) -> Optional[Dict[str, float | str]]:
     if prev_line is None:
         return None
 
@@ -79,57 +140,144 @@ def parser_fin(prev_line: Optional[str], curr_line: str, *, last:bool = True) ->
         if not m_fin:
             return None
 
-        fin = vert_std(m_fin.group('est').lstrip('0'))
+        fin: str = vert_std(m_fin.group('est').lstrip('0'))
         datos_med = parser_med(m_fin)
         if datos_med is None:
             return {"fin": fin}
-        # fusiona sin copiar más de lo necesario
         datos_med["fin"] = fin
         return datos_med
 
-    # Código '2' (si aplica en el futuro)
     return None
 
-# 4) ext_vert: streaming por archivo/ línea, sin diccionarios intermedios
-def ext_vert(crudos: Path, ext: str) -> List[Dict[str, object]]:
-    est: List[Dict[str, object]] = []
+
+# 4) ext_vert_iter: streaming por archivo/línea
+def ext_vert_iter(crudos: Path, ext: str) -> Iterator[Dict[str, object]]:
     suf = ext if ext.startswith(".") else f".{ext}"
 
-    # Itera directo por archivos; evita read_lines y dict gigante en RAM
+    def _fin_from_line(line: Optional[str]) -> Optional[Dict[str, float | str]]:
+        if not line:
+            return None
+        m_fin = FIN_RE_BF.search(line.strip())
+        if not m_fin:
+            return None
+        fin: str = vert_std(m_fin.group('est').lstrip('0'))
+        datos_med = parser_med(m_fin)
+        if datos_med is None:
+            return {"fin": fin}
+        datos_med["fin"] = fin
+        return datos_med
+
     for file in sorted(crudos.glob(f"*{suf}"), key=lambda f: f.name):
         if not file.is_file():
             continue
 
-        pending_ini: Optional[Tuple[str, str]] = None
+        pending_ini: Optional[Tuple[str, float]] = None  # (ini, flag_ini)
         prev_line: Optional[str] = None
+        last_nonempty: Optional[str] = None
 
-        # Lectura en streaming, robusta a errores de encoding
         with open(file, "r", encoding="utf-8", errors="replace") as f:
-            for curr_line in f:
-                # 1) Inicios: guarde el último visto (tupla)
+            for i, curr_line in enumerate(f):
+                # INI: guardamos ini y flag_ini (valor 83 inicial escalado o 0.0)
                 v_ini = parser_ini(curr_line)
                 if v_ini is not None:
                     pending_ini = v_ini
 
-                # 2) Fines BF: se disparan por la línea actual (bloque)
+                # FIN de bloque
                 v_fin = parser_fin(prev_line, curr_line)
+                fecha = ext_fecha(file.name)
+
                 if v_fin is not None:
                     if pending_ini is not None:
-                        ini, flag = pending_ini
-                        # compone un único registro; evita copias innecesarias
-                        est.append({
-                            "ini": (ini, flag),
-                            **v_fin,
-                            "file": file.name
+                        ini, flag_ini = pending_ini
+                        out = {"ini": ini, **v_fin}
+
+                        # Ajuste en línea: dif_height = final_83 - flag_ini (si flag_ini != 0.0)
+                        if ("dif_height" in out) and (out["dif_height"] is not None) and (abs(flag_ini) > 1e-12):
+                            out["dif_height"] = float(out["dif_height"]) - float(flag_ini)
+
+                        # Guarda flag_ini para poder recalcular "al final" si lo prefieres
+                        out.update({
+                            "flag_ini": flag_ini,
+                            "curv": 'Si' if abs(flag_ini) <= 1e-12 else 'No',
+                            "file": file.name,
+                            "date": fecha,
                         })
+                        yield out
                         pending_ini = None
                     else:
-                        est.append({**v_fin, "file": file.name})
+                        # No hubo INI (caso raro): emitir sin ajuste, sin flag_ini
+                        yield {**v_fin, "file": file.name, "date": fecha}
 
-                # Ventana deslizante
+                if curr_line.strip():
+                    last_nonempty = curr_line
                 prev_line = curr_line
 
-    return est
+        # EOF: cierre de pendiente
+        if pending_ini is not None:
+            fecha = ext_fecha(file.name)
+            ini, flag_ini = pending_ini
+            v_fin_eof = _fin_from_line(last_nonempty)
 
-# Parser vertices inicio
-print(ext_vert(L5Crudos, ".GSI"))
+            if v_fin_eof is not None:
+                out = {"ini": ini, **v_fin_eof}
+                if ("dif_height" in out) and (out["dif_height"] is not None) and (abs(flag_ini) > 1e-12):
+                    out["dif_height"] = float(out["dif_height"]) - float(flag_ini)
+                out.update({
+                    "flag_ini": flag_ini,
+                    "curv": 'Si' if abs(flag_ini) <= 1e-12 else 'No',
+                    "file": file.name,
+                    "date": fecha,
+                })
+                yield out
+            # Si no hay FIN detectable, no emitimos nada (no hay observación completa)
+            
+def ext_vert(crudos: Path, ext: str) -> pd.DataFrame:
+    rows = list(ext_vert_iter(crudos, ext))
+    return pd.DataFrame.from_records(rows) 
+
+def gen_ext(crudos: Path, orden: Path, ext: str):
+    df_vert = ext_vert(crudos, ext)
+    ida, reg = clasi_orden(orden)
+
+    df_ida = pd.DataFrame(ida, columns=["ini", "fin"])
+    df_reg = pd.DataFrame(reg, columns=["ini", "fin"])
+
+    # Clave única por tramo (ini-fin)
+    df_vert["key"] = df_vert["ini"].astype(str) + "_" + df_vert["fin"].astype(str)
+    df_ida["key"]  = df_ida["ini"].astype(str)  + "_" + df_ida["fin"].astype(str)
+    df_reg["key"]  = df_reg["ini"].astype(str)  + "_" + df_reg["fin"].astype(str)
+
+    # Orden según posición en df_ida y df_reg
+    orden_dict_I = {k: i for i, k in enumerate(df_ida["key"])}
+    orden_dict_R = {k: i for i, k in enumerate(df_reg["key"])}
+
+    # Mapear orden a df_vert
+    df_vert["orden_I"] = df_vert["key"].map(orden_dict_I)
+    df_vert["orden_R"] = df_vert["key"].map(orden_dict_R)
+
+    # Filtrar y ordenar para IDA
+    df_vert_I = (
+        df_vert[df_vert["key"].isin(df_ida["key"])]
+        .sort_values("orden_I", kind="stable")
+        .drop(columns=["key", "orden_I", "orden_R"], errors="ignore")
+        .reset_index(drop=True)
+    )
+
+    # Filtrar y ordenar para REGRESO
+    df_vert_R = (
+        df_vert[df_vert["key"].isin(df_reg["key"])]
+        .sort_values("orden_R", kind="stable")
+        .drop(columns=["key", "orden_I", "orden_R"], errors="ignore")
+        .reset_index(drop=True)
+    )
+
+    return df_vert_I, df_vert_R
+
+# --- Uso ---
+df_ida, df_reg = gen_ext(L5Crudos, L5Orden, ".GSI")
+
+df_vert = ext_vert(L5Crudos,".GSI")
+
+df_vert.to_excel("vertices-prueba-1.xlsx",index=False)
+df_ida.to_excel("prueba-ida.xlsx", index=False)
+df_reg.to_excel("prueba-regreso.xlsx", index=False)
