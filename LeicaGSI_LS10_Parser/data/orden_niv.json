@@ -1,0 +1,852 @@
+[
+  {
+    "ini": "B70-CW-7",
+    "fin": "23660003",
+    "sentido": "I"
+  },
+  {
+    "ini": "23660003",
+    "fin": "B70-CW-7",
+    "sentido": "R"
+  },
+  {
+    "ini": "23660003",
+    "fin": "A2-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A2-CB-3",
+    "fin": "23660003",
+    "sentido": "R"
+  },
+  {
+    "ini": "A2-CB-3",
+    "fin": "A3-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A3-CB-3",
+    "fin": "A2-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "A3-CB-3",
+    "fin": "4-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "4-CB-3",
+    "fin": "A3-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "4-CB-3",
+    "fin": "5-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "5-CB-3",
+    "fin": "4-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "5-CB-3",
+    "fin": "6-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "6-CB-3",
+    "fin": "5-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "6-CB-3",
+    "fin": "23189001",
+    "sentido": "I"
+  },
+  {
+    "ini": "23189001",
+    "fin": "6-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23189001",
+    "fin": "8-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "8-CB-3",
+    "fin": "23189001",
+    "sentido": "R"
+  },
+  {
+    "ini": "8-CB-3",
+    "fin": "9-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "9-CB-3",
+    "fin": "8-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "9-CB-3",
+    "fin": "10-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "10-CB-3",
+    "fin": "9-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "10-CB-3",
+    "fin": "23189002",
+    "sentido": "I"
+  },
+  {
+    "ini": "23189002",
+    "fin": "10-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23189002",
+    "fin": "12-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "12-CB-3",
+    "fin": "23189002",
+    "sentido": "R"
+  },
+  {
+    "ini": "12-CB-3",
+    "fin": "13-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "13-CB-3",
+    "fin": "12-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "13-CB-3",
+    "fin": "23189003",
+    "sentido": "I"
+  },
+  {
+    "ini": "23189003",
+    "fin": "13-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23189003",
+    "fin": "A16-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A16-CB-3",
+    "fin": "23189003",
+    "sentido": "R"
+  },
+  {
+    "ini": "A16-CB-3",
+    "fin": "23189004",
+    "sentido": "I"
+  },
+  {
+    "ini": "23189004",
+    "fin": "A16-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23189004",
+    "fin": "18-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "18-CB-3",
+    "fin": "23189004",
+    "sentido": "R"
+  },
+  {
+    "ini": "18-CB-3",
+    "fin": "23189005",
+    "sentido": "I"
+  },
+  {
+    "ini": "23189005",
+    "fin": "18-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23189005",
+    "fin": "19-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "19-CB-3",
+    "fin": "23189005",
+    "sentido": "R"
+  },
+  {
+    "ini": "19-CB-3",
+    "fin": "15-TE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "15-TE-2",
+    "fin": "19-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "15-TE-2",
+    "fin": "A20-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A20-CB-3",
+    "fin": "15-TE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "A20-CB-3",
+    "fin": "A21-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A21-CB-3",
+    "fin": "A20-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "A21-CB-3",
+    "fin": "A22-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A22-CB-3",
+    "fin": "A21-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "A22-CB-3",
+    "fin": "23-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "23-CB-3",
+    "fin": "A22-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23-CB-3",
+    "fin": "23189006",
+    "sentido": "I"
+  },
+  {
+    "ini": "23189006",
+    "fin": "23-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23189006",
+    "fin": "A25-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A25-CB-3",
+    "fin": "23189006",
+    "sentido": "R"
+  },
+  {
+    "ini": "A25-CB-3",
+    "fin": "A26-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A26-CB-3",
+    "fin": "A25-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "A26-CB-3",
+    "fin": "27-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "27-CB-3",
+    "fin": "A26-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "27-CB-3",
+    "fin": "28-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "28-CB-3",
+    "fin": "27-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "28-CB-3",
+    "fin": "23162001",
+    "sentido": "I"
+  },
+  {
+    "ini": "23162001",
+    "fin": "28-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23162001",
+    "fin": "23162002",
+    "sentido": "I"
+  },
+  {
+    "ini": "23162002",
+    "fin": "23162001",
+    "sentido": "R"
+  },
+  {
+    "ini": "23162002",
+    "fin": "23162003",
+    "sentido": "I"
+  },
+  {
+    "ini": "23162003",
+    "fin": "23162002",
+    "sentido": "R"
+  },
+  {
+    "ini": "23162003",
+    "fin": "23162004",
+    "sentido": "I"
+  },
+  {
+    "ini": "23162004",
+    "fin": "23162003",
+    "sentido": "R"
+  },
+  {
+    "ini": "23162004",
+    "fin": "23162005",
+    "sentido": "I"
+  },
+  {
+    "ini": "23162005",
+    "fin": "23162004",
+    "sentido": "R"
+  },
+  {
+    "ini": "23162005",
+    "fin": "23162006",
+    "sentido": "I"
+  },
+  {
+    "ini": "23162006",
+    "fin": "23162005",
+    "sentido": "R"
+  },
+  {
+    "ini": "23162006",
+    "fin": "A38-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A38-CB-3",
+    "fin": "23162006",
+    "sentido": "R"
+  },
+  {
+    "ini": "A38-CB-3",
+    "fin": "39-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "39-CB-3",
+    "fin": "A38-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "39-CB-3",
+    "fin": "23001001",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001001",
+    "fin": "39-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001001",
+    "fin": "A40-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A40-CB-3",
+    "fin": "23001001",
+    "sentido": "R"
+  },
+  {
+    "ini": "A40-CB-3",
+    "fin": "23001002",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001002",
+    "fin": "A40-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001002",
+    "fin": "A42-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "A42-CB-3",
+    "fin": "23001002",
+    "sentido": "R"
+  },
+  {
+    "ini": "A42-CB-3",
+    "fin": "23001003",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001003",
+    "fin": "A42-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001003",
+    "fin": "44-CB-3",
+    "sentido": "I"
+  },
+  {
+    "ini": "44-CB-3",
+    "fin": "23001003",
+    "sentido": "R"
+  },
+  {
+    "ini": "44-CB-3",
+    "fin": "23001004",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001004",
+    "fin": "44-CB-3",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001004",
+    "fin": "23001005",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001005",
+    "fin": "23001004",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001005",
+    "fin": "GPSCRT8A",
+    "sentido": "I"
+  },
+  {
+    "ini": "GPSCRT8A",
+    "fin": "23001005",
+    "sentido": "R"
+  },
+  {
+    "ini": "GPSCRT8A",
+    "fin": "23001006",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001006",
+    "fin": "GPSCRT8A",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001006",
+    "fin": "23001007",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001007",
+    "fin": "23001006",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001007",
+    "fin": "23001008",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001008",
+    "fin": "23001007",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001008",
+    "fin": "4-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "4-BE-2",
+    "fin": "23001008",
+    "sentido": "R"
+  },
+  {
+    "ini": "4-BE-2",
+    "fin": "A5-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "A5-BE-2",
+    "fin": "4-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "A5-BE-2",
+    "fin": "23001009",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001009",
+    "fin": "A5-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001009",
+    "fin": "7-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "7-BE-2",
+    "fin": "23001009",
+    "sentido": "R"
+  },
+  {
+    "ini": "7-BE-2",
+    "fin": "8-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "8-BE-2",
+    "fin": "7-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "8-BE-2",
+    "fin": "9-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "9-BE-2",
+    "fin": "8-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "9-BE-2",
+    "fin": "23001010",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001010",
+    "fin": "9-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001010",
+    "fin": "23001011",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001011",
+    "fin": "23001010",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001011",
+    "fin": "23001012",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001012",
+    "fin": "23001011",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001012",
+    "fin": "12-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "12-BE-2",
+    "fin": "23001012",
+    "sentido": "R"
+  },
+  {
+    "ini": "12-BE-2",
+    "fin": "23001013",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001013",
+    "fin": "12-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001013",
+    "fin": "A14-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "A14-BE-2",
+    "fin": "23001013",
+    "sentido": "R"
+  },
+  {
+    "ini": "A14-BE-2",
+    "fin": "23001014",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001014",
+    "fin": "A14-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001014",
+    "fin": "16-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "16-BE-2",
+    "fin": "23001014",
+    "sentido": "R"
+  },
+  {
+    "ini": "16-BE-2",
+    "fin": "23001015",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001015",
+    "fin": "16-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001015",
+    "fin": "18-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "18-BE-2",
+    "fin": "23001015",
+    "sentido": "R"
+  },
+  {
+    "ini": "18-BE-2",
+    "fin": "23001016",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001016",
+    "fin": "18-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001016",
+    "fin": "23001017",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001017",
+    "fin": "23001016",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001017",
+    "fin": "20-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "20-BE-2",
+    "fin": "23001017",
+    "sentido": "R"
+  },
+  {
+    "ini": "20-BE-2",
+    "fin": "23001018",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001018",
+    "fin": "20-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001018",
+    "fin": "21-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "21-BE-2",
+    "fin": "23001018",
+    "sentido": "R"
+  },
+  {
+    "ini": "21-BE-2",
+    "fin": "22-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "22-BE-2",
+    "fin": "21-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "22-BE-2",
+    "fin": "23001019",
+    "sentido": "I"
+  },
+  {
+    "ini": "23001019",
+    "fin": "22-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "23001019",
+    "fin": "24-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "24-BE-2",
+    "fin": "23001019",
+    "sentido": "R"
+  },
+  {
+    "ini": "24-BE-2",
+    "fin": "23555013",
+    "sentido": "I"
+  },
+  {
+    "ini": "23555013",
+    "fin": "24-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "23555013",
+    "fin": "23555014",
+    "sentido": "I"
+  },
+  {
+    "ini": "23555014",
+    "fin": "23555013",
+    "sentido": "R"
+  },
+  {
+    "ini": "23555014",
+    "fin": "26-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "26-BE-2",
+    "fin": "23555014",
+    "sentido": "R"
+  },
+  {
+    "ini": "26-BE-2",
+    "fin": "23555015",
+    "sentido": "I"
+  },
+  {
+    "ini": "23555015",
+    "fin": "26-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "23555015",
+    "fin": "A27-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "A27-BE-2",
+    "fin": "23555015",
+    "sentido": "R"
+  },
+  {
+    "ini": "A27-BE-2",
+    "fin": "A28-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "A28-BE-2",
+    "fin": "A27-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "A28-BE-2",
+    "fin": "29-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "29-BE-2",
+    "fin": "A28-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "29-BE-2",
+    "fin": "30-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "30-BE-2",
+    "fin": "29-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "30-BE-2",
+    "fin": "A31-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "A31-BE-2",
+    "fin": "30-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "A31-BE-2",
+    "fin": "A32-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "A32-BE-2",
+    "fin": "A31-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "A32-BE-2",
+    "fin": "A33-BE-2",
+    "sentido": "I"
+  },
+  {
+    "ini": "A33-BE-2",
+    "fin": "A32-BE-2",
+    "sentido": "R"
+  },
+  {
+    "ini": "A33-BE-2",
+    "fin": "B33-CW-7",
+    "sentido": "I"
+  },
+  {
+    "ini": "B33-CW-7",
+    "fin": "A33-BE-2",
+    "sentido": "R"
+  }
+]
