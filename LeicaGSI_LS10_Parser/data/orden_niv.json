@@ -2,851 +2,2381 @@
   {
     "ini": "B70-CW-7",
     "fin": "23660003",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1637.9287,
+    "dif.dist.hor": 1.6444,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 6.4227,
+    "orden_obs": 3,
+    "colimacion": 0.02657,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517UG.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "23660003",
     "fin": "B70-CW-7",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1650.0048,
+    "dif.dist.hor": -2.2971,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -6.4211,
+    "orden_obs": 3,
+    "colimacion": -0.01779,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517DL.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "23660003",
     "fin": "A2-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 787.5501,
+    "dif.dist.hor": 0.7297,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -16.544,
+    "orden_obs": 3,
+    "colimacion": 0.02657,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517UG.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "A2-CB-3",
     "fin": "23660003",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 787.2342,
+    "dif.dist.hor": -2.3903,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 16.5426,
+    "orden_obs": 3,
+    "colimacion": -0.01779,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517DL.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "A2-CB-3",
     "fin": "A3-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1109.3027,
+    "dif.dist.hor": 0.8477,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -53.5114,
+    "orden_obs": 3,
+    "colimacion": 0.02657,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517UG.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "A3-CB-3",
     "fin": "A2-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1141.0188,
+    "dif.dist.hor": 0.705,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 53.5119,
+    "orden_obs": 3,
+    "colimacion": -0.01779,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517DL.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "A3-CB-3",
     "fin": "4-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1084.1675,
+    "dif.dist.hor": -0.486,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -18.257,
+    "orden_obs": 3,
+    "colimacion": 0.02657,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517UG.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "4-CB-3",
     "fin": "A3-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1084.2181,
+    "dif.dist.hor": 5.7932,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 18.2581,
+    "orden_obs": 3,
+    "colimacion": -0.01779,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517DL.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "4-CB-3",
     "fin": "5-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 999.8266,
+    "dif.dist.hor": -0.7288,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -5.077,
+    "orden_obs": 3,
+    "colimacion": 0.02657,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517UG.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "5-CB-3",
     "fin": "4-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1030.4129,
+    "dif.dist.hor": -7.1365,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 5.0789,
+    "orden_obs": 3,
+    "colimacion": -0.01779,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517DL.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "5-CB-3",
     "fin": "6-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1107.9285,
+    "dif.dist.hor": -0.526,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -3.5232,
+    "orden_obs": 3,
+    "colimacion": 0.02657,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517UG.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "6-CB-3",
     "fin": "5-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1106.6676,
+    "dif.dist.hor": 0.3046,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 3.5241,
+    "orden_obs": 3,
+    "colimacion": -0.01779,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100517DL.GSI",
+    "fecha": "2010-05-17"
   },
   {
     "ini": "6-CB-3",
     "fin": "23189001",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1248.6682,
+    "dif.dist.hor": 1.064,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 20.7026,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518UG.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "23189001",
     "fin": "6-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1222.3215,
+    "dif.dist.hor": 3.4245,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -20.7027,
+    "orden_obs": 3,
+    "colimacion": -0.01766,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519DL.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "23189001",
     "fin": "8-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 926.4241,
+    "dif.dist.hor": -0.6352,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 5.4361,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518UG.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "8-CB-3",
     "fin": "23189001",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 815.1623,
+    "dif.dist.hor": 2.5665,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -5.4346,
+    "orden_obs": 3,
+    "colimacion": -0.01766,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519DL.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "8-CB-3",
     "fin": "9-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 848.3719,
+    "dif.dist.hor": -3.9493,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -22.8771,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518UG.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "9-CB-3",
     "fin": "8-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 832.5818,
+    "dif.dist.hor": 5.6576,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 22.8787,
+    "orden_obs": 3,
+    "colimacion": -0.01766,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519DL.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "9-CB-3",
     "fin": "10-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1276.2174,
+    "dif.dist.hor": -2.3701,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -8.3306,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518UG.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "10-CB-3",
     "fin": "9-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1290.0323,
+    "dif.dist.hor": 3.6888,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 8.3316,
+    "orden_obs": 3,
+    "colimacion": -0.01766,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519DL.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "10-CB-3",
     "fin": "23189002",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 953.7476,
+    "dif.dist.hor": -0.4024,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -7.284,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518UG.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "23189002",
     "fin": "10-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 943.0723,
+    "dif.dist.hor": 3.7862,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 7.2859,
+    "orden_obs": 3,
+    "colimacion": -0.01766,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519DL.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "23189002",
     "fin": "12-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 888.7373,
+    "dif.dist.hor": 1.1232,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 7.1974,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518UG.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "12-CB-3",
     "fin": "23189002",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 889.4886,
+    "dif.dist.hor": 3.1041,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -7.198,
+    "orden_obs": 3,
+    "colimacion": -0.01766,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519DL.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "12-CB-3",
     "fin": "13-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 889.741,
+    "dif.dist.hor": 3.3771,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -10.2561,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518UG.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "13-CB-3",
     "fin": "12-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 887.0335,
+    "dif.dist.hor": -2.1276,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 10.2578,
+    "orden_obs": 3,
+    "colimacion": -0.01766,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519DL.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "13-CB-3",
     "fin": "23189003",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1205.0463,
+    "dif.dist.hor": -2.4152,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -8.3642,
+    "orden_obs": 3,
+    "colimacion": 0.01764,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519UG.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "23189003",
     "fin": "13-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1198.525,
+    "dif.dist.hor": 0.2138,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 8.3658,
+    "orden_obs": 3,
+    "colimacion": 0.02652,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518DL.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "23189003",
     "fin": "A16-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1575.9199,
+    "dif.dist.hor": -1.937,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -15.7864,
+    "orden_obs": 3,
+    "colimacion": 0.01764,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519UG.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "A16-CB-3",
     "fin": "23189003",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1572.7011,
+    "dif.dist.hor": 6.7638,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 15.7862,
+    "orden_obs": 3,
+    "colimacion": 0.02652,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518DL.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "A16-CB-3",
     "fin": "23189004",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1177.1381,
+    "dif.dist.hor": -4.9416,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 2.7219,
+    "orden_obs": 3,
+    "colimacion": 0.01764,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519UG.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "23189004",
     "fin": "A16-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1311.9352,
+    "dif.dist.hor": 3.1064,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -2.7213,
+    "orden_obs": 3,
+    "colimacion": 0.02652,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518DL.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "23189004",
     "fin": "18-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1442.9975,
+    "dif.dist.hor": -0.0743,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 3.5385,
+    "orden_obs": 3,
+    "colimacion": 0.01764,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519UG.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "18-CB-3",
     "fin": "23189004",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1453.882,
+    "dif.dist.hor": 3.4507,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -3.5379,
+    "orden_obs": 3,
+    "colimacion": 0.02652,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518DL.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "18-CB-3",
     "fin": "23189005",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 313.7755,
+    "dif.dist.hor": -1.232,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -2.2836,
+    "orden_obs": 3,
+    "colimacion": 0.01764,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519UG.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "23189005",
     "fin": "18-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 304.2076,
+    "dif.dist.hor": 2.9647,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 2.2829,
+    "orden_obs": 3,
+    "colimacion": 0.02652,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518DL.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "23189005",
     "fin": "19-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 755.6687,
+    "dif.dist.hor": -0.1186,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 3.6086,
+    "orden_obs": 3,
+    "colimacion": 0.01764,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519UG.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "19-CB-3",
     "fin": "23189005",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 747.8846,
+    "dif.dist.hor": 3.2601,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -3.6083,
+    "orden_obs": 3,
+    "colimacion": 0.02652,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100518DL.GSI",
+    "fecha": "2010-05-18"
   },
   {
     "ini": "19-CB-3",
     "fin": "15-TE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 534.8722,
+    "dif.dist.hor": -1.1301,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -9.1504,
+    "orden_obs": 3,
+    "colimacion": 0.01764,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100519UG.GSI",
+    "fecha": "2010-05-19"
   },
   {
     "ini": "15-TE-2",
     "fin": "19-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 537.0664,
+    "dif.dist.hor": 2.4114,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 9.151,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521DL.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "15-TE-2",
     "fin": "A20-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1235.2036,
+    "dif.dist.hor": 1.3614,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.9149,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520UG.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "A20-CB-3",
     "fin": "15-TE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1235.0602,
+    "dif.dist.hor": 3.2338,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.9128,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521DL.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "A20-CB-3",
     "fin": "A21-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1403.1513,
+    "dif.dist.hor": -0.6191,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.1566,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520UG.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "A21-CB-3",
     "fin": "A20-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1407.0283,
+    "dif.dist.hor": -3.0186,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.1568,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521DL.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "A21-CB-3",
     "fin": "A22-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1156.9927,
+    "dif.dist.hor": 1.6375,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.2304,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520UG.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "A22-CB-3",
     "fin": "A21-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1176.6316,
+    "dif.dist.hor": -4.728,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.2295,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521DL.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "A22-CB-3",
     "fin": "23-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1412.7762,
+    "dif.dist.hor": -1.9425,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.5169,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520UG.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "23-CB-3",
     "fin": "A22-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1421.5458,
+    "dif.dist.hor": 3.2183,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.5166,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521DL.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "23-CB-3",
     "fin": "23189006",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1490.0143,
+    "dif.dist.hor": -1.7711,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.6755,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520UG.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "23189006",
     "fin": "23-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1483.0185,
+    "dif.dist.hor": -0.7429,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.6753,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521DL.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "23189006",
     "fin": "A25-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1364.0981,
+    "dif.dist.hor": 3.0919,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.0297,
+    "orden_obs": 3,
+    "colimacion": -0.0177,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520UG.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "A25-CB-3",
     "fin": "23189006",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1344.8829,
+    "dif.dist.hor": -1.5958,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.0301,
+    "orden_obs": 3,
+    "colimacion": -85.48277,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520DL.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "A25-CB-3",
     "fin": "A26-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 924.0806,
+    "dif.dist.hor": -1.3359,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.9728,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521UG.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "A26-CB-3",
     "fin": "A25-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 977.617,
+    "dif.dist.hor": 5.532,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.9734,
+    "orden_obs": 3,
+    "colimacion": -85.48277,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520DL.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "A26-CB-3",
     "fin": "27-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1014.8623,
+    "dif.dist.hor": 1.8087,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.405,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521UG.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "27-CB-3",
     "fin": "A26-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1009.306,
+    "dif.dist.hor": 1.2693,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.4032,
+    "orden_obs": 3,
+    "colimacion": -85.48277,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520DL.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "27-CB-3",
     "fin": "28-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1387.3112,
+    "dif.dist.hor": -0.6416,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.8612,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521UG.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "28-CB-3",
     "fin": "27-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1385.3207,
+    "dif.dist.hor": 1.9258,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.8621,
+    "orden_obs": 3,
+    "colimacion": -85.48277,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520DL.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "28-CB-3",
     "fin": "23162001",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1395.8457,
+    "dif.dist.hor": 1.3958,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.2976,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521UG.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "23162001",
     "fin": "28-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1395.7716,
+    "dif.dist.hor": 2.6226,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.2965,
+    "orden_obs": 3,
+    "colimacion": -85.48277,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520DL.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "23162001",
     "fin": "23162002",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1415.4666,
+    "dif.dist.hor": 3.0464,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.034,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521UG.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "23162002",
     "fin": "23162001",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1415.4055,
+    "dif.dist.hor": 3.6801,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.0359,
+    "orden_obs": 3,
+    "colimacion": -85.48277,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100520DL.GSI",
+    "fecha": "2010-05-20"
   },
   {
     "ini": "23162002",
     "fin": "23162003",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1474.0828,
+    "dif.dist.hor": 1.8302,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.303,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100521UG.GSI",
+    "fecha": "2010-05-21"
   },
   {
     "ini": "23162003",
     "fin": "23162002",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1466.0362,
+    "dif.dist.hor": -0.2226,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.3049,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525DL.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "23162003",
     "fin": "23162004",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1212.348,
+    "dif.dist.hor": -0.7991,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.8407,
+    "orden_obs": 3,
+    "colimacion": -0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524UG.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "23162004",
     "fin": "23162003",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1204.7956,
+    "dif.dist.hor": 3.9907,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.839,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525DL.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "23162004",
     "fin": "23162005",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1507.0294,
+    "dif.dist.hor": -0.6137,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.3235,
+    "orden_obs": 3,
+    "colimacion": -0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524UG.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "23162005",
     "fin": "23162004",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1499.2948,
+    "dif.dist.hor": 2.5679,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.3253,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525DL.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "23162005",
     "fin": "23162006",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1226.7429,
+    "dif.dist.hor": 0.7804,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.4588,
+    "orden_obs": 3,
+    "colimacion": -0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524UG.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "23162006",
     "fin": "23162005",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1225.5642,
+    "dif.dist.hor": -0.949,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.4594,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525DL.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "23162006",
     "fin": "A38-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1072.0062,
+    "dif.dist.hor": -0.7748,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.0588,
+    "orden_obs": 3,
+    "colimacion": -0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524UG.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "A38-CB-3",
     "fin": "23162006",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1073.3503,
+    "dif.dist.hor": 3.9207,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.058,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525DL.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "A38-CB-3",
     "fin": "39-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1122.6251,
+    "dif.dist.hor": -0.7387,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.1183,
+    "orden_obs": 3,
+    "colimacion": -0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524UG.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "39-CB-3",
     "fin": "A38-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1168.9076,
+    "dif.dist.hor": 8.1212,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.118,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525DL.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "39-CB-3",
     "fin": "23001001",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1026.4638,
+    "dif.dist.hor": -0.2309,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.39,
+    "orden_obs": 3,
+    "colimacion": -0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524UG.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "23001001",
     "fin": "39-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1040.8246,
+    "dif.dist.hor": 2.1573,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.391,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524DL.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "23001001",
     "fin": "A40-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 732.0122,
+    "dif.dist.hor": -0.2574,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.8685,
+    "orden_obs": 3,
+    "colimacion": -0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524UG.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "A40-CB-3",
     "fin": "23001001",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 736.2539,
+    "dif.dist.hor": 7.0958,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.8695,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524DL.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "A40-CB-3",
     "fin": "23001002",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 929.9703,
+    "dif.dist.hor": 1.2149,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -2.9033,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525UG.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "23001002",
     "fin": "A40-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 933.8793,
+    "dif.dist.hor": 0.5454,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 2.9033,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524DL.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "23001002",
     "fin": "A42-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1536.9719,
+    "dif.dist.hor": 1.6222,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 2.9023,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525UG.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "A42-CB-3",
     "fin": "23001002",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1540.138,
+    "dif.dist.hor": -1.692,
+    "ceros.iniciales": 2.2618,
+    "dif.alt.obs": -0.6408,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524DL.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "A42-CB-3",
     "fin": "23001003",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1678.1641,
+    "dif.dist.hor": -2.4189,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -2.261,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525UG.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "23001003",
     "fin": "A42-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1718.8834,
+    "dif.dist.hor": -4.7557,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 2.2618,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524DL.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "23001003",
     "fin": "44-CB-3",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1615.0111,
+    "dif.dist.hor": -0.2762,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.25,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525UG.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "44-CB-3",
     "fin": "23001003",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1621.4182,
+    "dif.dist.hor": 0.5738,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.2484,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100524DL.GSI",
+    "fecha": "2010-05-24"
   },
   {
     "ini": "44-CB-3",
     "fin": "23001004",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 392.6164,
+    "dif.dist.hor": -4.7961,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.1403,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525UG.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "23001004",
     "fin": "44-CB-3",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 417.2943,
+    "dif.dist.hor": 7.1774,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.1413,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525DL.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "23001004",
     "fin": "23001005",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1377.9582,
+    "dif.dist.hor": -0.4141,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 3.1252,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525UG.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "23001005",
     "fin": "23001004",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1385.8213,
+    "dif.dist.hor": -10.8905,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -3.1235,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100525DL.GSI",
+    "fecha": "2010-05-25"
   },
   {
     "ini": "23001005",
     "fin": "GPSCRT8A",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1022.2107,
+    "dif.dist.hor": 0.2179,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -2.0401,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526UG.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "GPSCRT8A",
     "fin": "23001005",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1026.5941,
+    "dif.dist.hor": 3.5051,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 2.0386,
+    "orden_obs": 3,
+    "colimacion": -0.00888,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527DL.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "GPSCRT8A",
     "fin": "23001006",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 371.4548,
+    "dif.dist.hor": -0.0802,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.5479,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526UG.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "23001006",
     "fin": "GPSCRT8A",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 398.6999,
+    "dif.dist.hor": 6.7929,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.5479,
+    "orden_obs": 3,
+    "colimacion": -0.00888,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527DL.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "23001006",
     "fin": "23001007",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1491.701,
+    "dif.dist.hor": -0.4331,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.1684,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526UG.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "23001007",
     "fin": "23001006",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1629.3214,
+    "dif.dist.hor": 1.1106,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.168,
+    "orden_obs": 3,
+    "colimacion": -0.00888,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527DL.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "23001007",
     "fin": "23001008",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1594.2016,
+    "dif.dist.hor": -0.6287,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.0484,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526UG.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "23001008",
     "fin": "23001007",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1591.8457,
+    "dif.dist.hor": -4.9207,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.0479,
+    "orden_obs": 3,
+    "colimacion": -0.00888,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527DL.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "23001008",
     "fin": "4-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1622.5779,
+    "dif.dist.hor": 0.4843,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.5547,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526UG.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "4-BE-2",
     "fin": "23001008",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1630.0035,
+    "dif.dist.hor": 2.2105,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.5551,
+    "orden_obs": 3,
+    "colimacion": -0.00888,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527DL.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "4-BE-2",
     "fin": "A5-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1515.8312,
+    "dif.dist.hor": 2.5138,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.1528,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526UG.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "A5-BE-2",
     "fin": "4-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1451.2655,
+    "dif.dist.hor": 8.5482,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.1541,
+    "orden_obs": 3,
+    "colimacion": -0.00888,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527DL.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "A5-BE-2",
     "fin": "23001009",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1494.7514,
+    "dif.dist.hor": -3.1297,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 7.6996,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527UG.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "23001009",
     "fin": "A5-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1498.564,
+    "dif.dist.hor": -0.5943,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -7.7007,
+    "orden_obs": 3,
+    "colimacion": -0.01256,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526DL.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "23001009",
     "fin": "7-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1565.3797,
+    "dif.dist.hor": 0.9163,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 2.5075,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527UG.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "7-BE-2",
     "fin": "23001009",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1564.3966,
+    "dif.dist.hor": 3.419,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -2.5097,
+    "orden_obs": 3,
+    "colimacion": -0.01256,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526DL.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "7-BE-2",
     "fin": "8-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1744.0034,
+    "dif.dist.hor": 1.0468,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 2.6912,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527UG.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "8-BE-2",
     "fin": "7-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1742.6438,
+    "dif.dist.hor": -3.9116,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -2.6897,
+    "orden_obs": 3,
+    "colimacion": -0.01256,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526DL.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "8-BE-2",
     "fin": "9-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1360.4709,
+    "dif.dist.hor": -0.6096,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 7.8173,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527UG.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "9-BE-2",
     "fin": "8-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1372.3732,
+    "dif.dist.hor": -2.45,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -7.818,
+    "orden_obs": 3,
+    "colimacion": -0.01256,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526DL.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "9-BE-2",
     "fin": "23001010",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1458.6763,
+    "dif.dist.hor": -0.1948,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 20.2985,
+    "orden_obs": 3,
+    "colimacion": 0.00887,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100527UG.GSI",
+    "fecha": "2010-05-27"
   },
   {
     "ini": "23001010",
     "fin": "9-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1502.0465,
+    "dif.dist.hor": -2.3288,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -20.2986,
+    "orden_obs": 3,
+    "colimacion": -0.01256,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100526DL.GSI",
+    "fecha": "2010-05-26"
   },
   {
     "ini": "23001010",
     "fin": "23001011",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1118.3149,
+    "dif.dist.hor": -0.6413,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -17.6684,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528UG.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "23001011",
     "fin": "23001010",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1119.0342,
+    "dif.dist.hor": 0.2204,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 17.6679,
+    "orden_obs": 3,
+    "colimacion": 0.00882,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529DL.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "23001011",
     "fin": "23001012",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1032.647,
+    "dif.dist.hor": -0.0289,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -10.2006,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528UG.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "23001012",
     "fin": "23001011",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1038.6274,
+    "dif.dist.hor": 0.6987,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 10.1998,
+    "orden_obs": 3,
+    "colimacion": 0.00882,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529DL.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "23001012",
     "fin": "12-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1249.4129,
+    "dif.dist.hor": -1.3879,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.5196,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528UG.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "12-BE-2",
     "fin": "23001012",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1252.7378,
+    "dif.dist.hor": 1.0328,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.5186,
+    "orden_obs": 3,
+    "colimacion": 0.00882,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529DL.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "12-BE-2",
     "fin": "23001013",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1529.055,
+    "dif.dist.hor": 1.054,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 8.5242,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528UG.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "23001013",
     "fin": "12-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1564.3199,
+    "dif.dist.hor": 1.2071,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -8.5248,
+    "orden_obs": 3,
+    "colimacion": 0.00882,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529DL.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "23001013",
     "fin": "A14-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1362.351,
+    "dif.dist.hor": -0.8029,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.3034,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528UG.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "A14-BE-2",
     "fin": "23001013",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1360.3065,
+    "dif.dist.hor": 1.7739,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.302,
+    "orden_obs": 3,
+    "colimacion": 0.00882,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529DL.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "A14-BE-2",
     "fin": "23001014",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1429.4398,
+    "dif.dist.hor": -0.944,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 1.0032,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528UG.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "23001014",
     "fin": "A14-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1425.9029,
+    "dif.dist.hor": 0.6811,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -1.0017,
+    "orden_obs": 3,
+    "colimacion": 0.00882,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529DL.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "23001014",
     "fin": "16-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1213.7189,
+    "dif.dist.hor": -0.0424,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 5.4359,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529UG.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "16-BE-2",
     "fin": "23001014",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1234.9089,
+    "dif.dist.hor": 3.3742,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -5.4376,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528DL.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "16-BE-2",
     "fin": "23001015",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1614.9537,
+    "dif.dist.hor": 0.5474,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 5.7897,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529UG.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "23001015",
     "fin": "16-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1647.4208,
+    "dif.dist.hor": 3.46,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -5.7874,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528DL.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "23001015",
     "fin": "18-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1538.6861,
+    "dif.dist.hor": 0.3137,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 2.4692,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529UG.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "18-BE-2",
     "fin": "23001015",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1538.9537,
+    "dif.dist.hor": -1.4965,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -2.469,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528DL.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "18-BE-2",
     "fin": "23001016",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 853.2257,
+    "dif.dist.hor": -0.5624,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 4.4508,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529UG.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "23001016",
     "fin": "18-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 855.5686,
+    "dif.dist.hor": 5.2326,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -4.4504,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528DL.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "23001016",
     "fin": "23001017",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1509.0938,
+    "dif.dist.hor": -1.2804,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 10.1553,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529UG.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "23001017",
     "fin": "23001016",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1510.8286,
+    "dif.dist.hor": 4.8505,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -10.1573,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528DL.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "23001017",
     "fin": "20-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1105.025,
+    "dif.dist.hor": -0.7619,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 46.9844,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100529UG.GSI",
+    "fecha": "2010-05-29"
   },
   {
     "ini": "20-BE-2",
     "fin": "23001017",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1105.0765,
+    "dif.dist.hor": 0.5412,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -46.9848,
+    "orden_obs": 3,
+    "colimacion": -0.0,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100528DL.GSI",
+    "fecha": "2010-05-28"
   },
   {
     "ini": "20-BE-2",
     "fin": "23001018",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1101.7098,
+    "dif.dist.hor": -2.2571,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 9.0986,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531UG.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "23001018",
     "fin": "20-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1098.9219,
+    "dif.dist.hor": 1.0784,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -9.0972,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601DL.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "23001018",
     "fin": "21-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 853.2043,
+    "dif.dist.hor": -0.312,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 0.4338,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531UG.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "21-BE-2",
     "fin": "23001018",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 857.6572,
+    "dif.dist.hor": 0.7797,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -0.4335,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601DL.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "21-BE-2",
     "fin": "22-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1419.4313,
+    "dif.dist.hor": -0.9525,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -5.9801,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531UG.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "22-BE-2",
     "fin": "21-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1421.5059,
+    "dif.dist.hor": 3.9347,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 5.9803,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601DL.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "22-BE-2",
     "fin": "23001019",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1481.0157,
+    "dif.dist.hor": -1.527,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 35.0439,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531UG.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "23001019",
     "fin": "22-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1484.0549,
+    "dif.dist.hor": -2.3927,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -35.0445,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601DL.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "23001019",
     "fin": "24-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1622.4967,
+    "dif.dist.hor": -1.9718,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 24.2754,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531UG.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "24-BE-2",
     "fin": "23001019",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1636.3473,
+    "dif.dist.hor": 0.3047,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -24.2742,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601DL.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "24-BE-2",
     "fin": "23555013",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1233.0253,
+    "dif.dist.hor": -1.8154,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -15.4424,
+    "orden_obs": 3,
+    "colimacion": 0.00886,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531UG.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "23555013",
     "fin": "24-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1226.4483,
+    "dif.dist.hor": 2.4569,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 15.4423,
+    "orden_obs": 3,
+    "colimacion": -0.00885,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601DL.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "23555013",
     "fin": "23555014",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 845.3852,
+    "dif.dist.hor": 0.7795,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -19.5292,
+    "orden_obs": 3,
+    "colimacion": -0.02658,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601UG.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "23555014",
     "fin": "23555013",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 877.2587,
+    "dif.dist.hor": -5.9157,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 19.5293,
+    "orden_obs": 3,
+    "colimacion": -0.00884,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531DL.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "23555014",
     "fin": "26-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1341.5319,
+    "dif.dist.hor": 0.0758,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -4.726,
+    "orden_obs": 3,
+    "colimacion": -0.02658,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601UG.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "26-BE-2",
     "fin": "23555014",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1360.6098,
+    "dif.dist.hor": 1.0039,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 4.7278,
+    "orden_obs": 3,
+    "colimacion": -0.00884,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531DL.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "26-BE-2",
     "fin": "23555015",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1025.0645,
+    "dif.dist.hor": 0.9796,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -13.1808,
+    "orden_obs": 3,
+    "colimacion": -0.02658,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601UG.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "23555015",
     "fin": "26-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1030.209,
+    "dif.dist.hor": -2.3224,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 13.1821,
+    "orden_obs": 3,
+    "colimacion": -0.00884,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531DL.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "23555015",
     "fin": "A27-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 910.669,
+    "dif.dist.hor": -0.4941,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -12.2216,
+    "orden_obs": 3,
+    "colimacion": -0.02658,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601UG.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "A27-BE-2",
     "fin": "23555015",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 909.0782,
+    "dif.dist.hor": 3.6281,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 12.2219,
+    "orden_obs": 3,
+    "colimacion": -0.00884,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531DL.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "A27-BE-2",
     "fin": "A28-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1253.5525,
+    "dif.dist.hor": -1.4514,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -9.2986,
+    "orden_obs": 3,
+    "colimacion": -0.02658,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601UG.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "A28-BE-2",
     "fin": "A27-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1254.0038,
+    "dif.dist.hor": -0.6793,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 9.3008,
+    "orden_obs": 3,
+    "colimacion": -0.00884,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531DL.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "A28-BE-2",
     "fin": "29-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1664.4468,
+    "dif.dist.hor": 0.0778,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -8.5929,
+    "orden_obs": 3,
+    "colimacion": -0.02658,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100601UG.GSI",
+    "fecha": "2010-06-01"
   },
   {
     "ini": "29-BE-2",
     "fin": "A28-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1667.8643,
+    "dif.dist.hor": 0.265,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 8.5926,
+    "orden_obs": 3,
+    "colimacion": -0.00884,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100531DL.GSI",
+    "fecha": "2010-05-31"
   },
   {
     "ini": "29-BE-2",
     "fin": "30-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1370.6536,
+    "dif.dist.hor": -0.3549,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -4.7465,
+    "orden_obs": 3,
+    "colimacion": -0.0266,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100602UG.GSI",
+    "fecha": "2010-06-02"
   },
   {
     "ini": "30-BE-2",
     "fin": "29-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1389.2716,
+    "dif.dist.hor": 2.0871,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 4.7455,
+    "orden_obs": 3,
+    "colimacion": 0.01781,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100602DL.GSI",
+    "fecha": "2010-06-02"
   },
   {
     "ini": "30-BE-2",
     "fin": "A31-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1833.3637,
+    "dif.dist.hor": -1.0259,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 4.1837,
+    "orden_obs": 3,
+    "colimacion": -0.0266,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100602UG.GSI",
+    "fecha": "2010-06-02"
   },
   {
     "ini": "A31-BE-2",
     "fin": "30-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1841.1092,
+    "dif.dist.hor": -5.8578,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -4.183,
+    "orden_obs": 3,
+    "colimacion": 0.01781,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100602DL.GSI",
+    "fecha": "2010-06-02"
   },
   {
     "ini": "A31-BE-2",
     "fin": "A32-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1812.971,
+    "dif.dist.hor": 0.1837,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -9.9732,
+    "orden_obs": 3,
+    "colimacion": -0.0266,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100602UG.GSI",
+    "fecha": "2010-06-02"
   },
   {
     "ini": "A32-BE-2",
     "fin": "A31-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1819.6405,
+    "dif.dist.hor": 0.3835,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 9.9754,
+    "orden_obs": 3,
+    "colimacion": 0.01781,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100602DL.GSI",
+    "fecha": "2010-06-02"
   },
   {
     "ini": "A32-BE-2",
     "fin": "A33-BE-2",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1679.5802,
+    "dif.dist.hor": -0.4927,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -11.7258,
+    "orden_obs": 3,
+    "colimacion": -0.0266,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100602UG.GSI",
+    "fecha": "2010-06-02"
   },
   {
     "ini": "A33-BE-2",
     "fin": "A32-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1686.8112,
+    "dif.dist.hor": -0.8479,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 11.7261,
+    "orden_obs": 3,
+    "colimacion": 0.01781,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100602DL.GSI",
+    "fecha": "2010-06-02"
   },
   {
     "ini": "A33-BE-2",
     "fin": "B33-CW-7",
-    "sentido": "I"
+    "sentido": "I",
+    "dis.total": 1142.7063,
+    "dif.dist.hor": 0.1155,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": -2.1706,
+    "orden_obs": 3,
+    "colimacion": -0.0266,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100602UG.GSI",
+    "fecha": "2010-06-02"
   },
   {
     "ini": "B33-CW-7",
     "fin": "A33-BE-2",
-    "sentido": "R"
+    "sentido": "R",
+    "dis.total": 1138.8796,
+    "dif.dist.hor": -2.7309,
+    "ceros.iniciales": 0.0,
+    "dif.alt.obs": 2.1722,
+    "orden_obs": 3,
+    "colimacion": 0.01781,
+    "tipo.archivo": "8 bits",
+    "nombre.archivo": "100602DL.GSI",
+    "fecha": "2010-06-02"
   }
 ]
